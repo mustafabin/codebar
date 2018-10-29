@@ -1,32 +1,59 @@
+[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
+
 # Codebar
 
-## Part I: Members, Students and Instructors
+## Prerequisites
 
-You're starting your own web development school called Codebar! Everybody at Codebar -- whether they are attending workshops or teaching them -- is a `Member`.
+* Programming fundamentals in Python
+* Object Oriented Programming in Python
+
+## Instructions
+
+1. Fork and clone this repository.
+1. Change into the new directory.
+1. Fulfill the listed requirements.
+
+Starter code is available in [`lib/challenge.js`](lib/challenge.js). You are
+required to turn in your submission by making a pull request on the original
+repository.
+
+Unless otherwise specified on the calendar or by an instructor, homework is due
+the next morning by 9:00am.
+
+## Requirements
+
+### Part I: Members, Students and Instructors
+
+You're starting your own web development school called Codebar! Everybody at
+Codebar - whether they are attending workshops or teaching them - is
+a `Member`:
+
 * Each member has a `full_name`.
 * Each member should be able to `introduce` themselves (e.g., "Hi, my name is Kevin!").
 
-Each `Member` is also either a `Student` or an `Instructor`.
-* Each student has a `reason` for attending Codebar (e.g., "I've always wanted to make websites!").
-* Each instructor a `bio` (e.g., "I've been coding in Python for 5 years and want to share the love!").
-* Each instructor also has a set of `skills` (e.g., `["Python", "Javascript", "C++"]`).
-* An instructor can gain a new skill using `add_skill`.
+Each `Member` is also either a `Student` or an `Instructor`:
 
-## Part II: Workshops
+* Each Student has a `reason` for attending Codebar (e.g., "I've always wanted to make websites!").
+* Each Instructor a `bio` (e.g., "I've been coding in Python for 5 years and want to share the love!").
+* Each Instructor also has a set of `skills` (e.g., `["Python", "Javascript", "C++"]`).
+* An Instructor can gain a new skill using `add_skill`.
 
-Codebar also has Workshops. Each workshop has...
+### Part II: Workshops
+
+Codebar also has Workshops. Each Workshop has:
+
 * A `date`.
 * A `subject`.
 * A group of instructors.
 * A roster of students.
-
-An `add_participant` method that accepts a member as an argument. If the Member is an Instructor, add them to the instructors list. If a Member is a Student, add them to the students list.
+* An `add_participant` method that accepts a member as an argument. If the Member is an Instructor, add them to the instructors list. If a Member is a Student, add them to the students list.
 
 Create another method `print_details` that outputs the details of the workshop.
 
-## Test Your Code
+### Test Your Code
 
-Make your code work for the following calls and print out the response you can see in the comments below...
+Make your code work for the following calls and print out the response you can
+see in the comments below:
 
 ```py
 workshop = Workshop("12/03/2014", "Shutl")
@@ -59,11 +86,23 @@ workshop.print_details
 #
 ```
 
-## Bonus I
+## Bonus
 
-The `print_details` method currently does a number of different things, like printing out workshop details, the list of Students and the list of Coaches.
+The `print_details` method currently does a number of different things, like
+printing out workshop details, the list of Students and the list of Coaches.
 
-Create separate methods to print the workshop details (date and classroom), a method to print out the students and one to print out the coaches. Call these from `print_details` instead of having all the code there.
-
+Create separate methods to print the workshop details (date and classroom),
+a method to print out the students and one to print out the coaches. Call these
+from `print_details` instead of having all the code there.
 
 > Hint: look into defining private class methods.
+
+## Plagiarism
+
+Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md). Plagiarized work will not be accepted.
+
+## [License](LICENSE)
+
+1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
+1.  All software code is licensed under GNU GPLv3. For commercial use or
+    alternative licensing, please contact legal@ga.co.
