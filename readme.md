@@ -13,9 +13,8 @@
 1. Change into the new directory.
 1. Fulfill the listed requirements.
 
-Starter code is available in [`lib/challenge.js`](lib/challenge.js). You are
-required to turn in your submission by making a pull request on the original
-repository.
+Starter code is available in [`lib/app.py`](lib/app.py). You are required to
+turn in your submission by making a pull request on the original repository.
 
 Unless otherwise specified on the calendar or by an instructor, homework is due
 the next morning by 9:00am.
