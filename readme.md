@@ -69,7 +69,7 @@ workshop.add_participant(jane)
 workshop.add_participant(lena)
 workshop.add_participant(vicky)
 workshop.add_participant(nicole)
-workshop.print_details
+workshop.print_details()
 # =>
 # Workshop - 12/03/2014 - Shutl
 #
