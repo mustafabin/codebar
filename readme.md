@@ -80,7 +80,7 @@ workshop.print_details()
 # Instructors
 # 1. Vicky Python - HTML, JavaScript
 #    I want to help people learn coding.
-# 2. Nicole McMillan - Ruby
+# 2. Nicole McMillan - Python
 #    I have been programming for 5 years in Python and want to spread the love
 #
 ```
