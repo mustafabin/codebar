@@ -78,10 +78,10 @@ workshop.print_details()
 # 2. Lena Smith - I am really excited about learning to program!
 #
 # Instructors
-# 1. Vicky Ruby - HTML, JavaScript
+# 1. Vicky Python - HTML, JavaScript
 #    I want to help people learn coding.
 # 2. Nicole McMillan - Ruby
-#    I have been programming for 5 years in Ruby and want to spread the love
+#    I have been programming for 5 years in Python and want to spread the love
 #
 ```
 
